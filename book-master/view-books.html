@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>View Books</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  <div class="topnav">
+    <a href="view-books.html">View books</a>
+    <a href="add-book.html">Add/Update Book</a>
+    <a href="delete-book.html">Delete Book</a>
+  </div>
+  <header>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container d-flex justify-content-between">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <strong>View Books</strong>
+        </a>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <table class="table" id="myTable">
+      <thead>
+        <tr>
+          <th scope="col">Book Id</th>
+          <th scope="col">Book Name</th>
+          <th scope="col">Book Genre</th>
+        </tr>
+      </thead>
+      <tbody id="bookContainer">
+      </tbody>
+    </table>
+    <p>Click the button to sort the table alphabetically, by BookID:</p>
+    <p><button onclick="sortTable()">Sort</button></p>
+  </div>
+  <script src="js/view-books.js"></script>
+</body>
+</html>

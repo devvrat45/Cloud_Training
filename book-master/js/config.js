@@ -8,4 +8,3 @@ window._config = {
         invokeUrl: 'https://msyvwv7mh8.execute-api.ap-south-1.amazonaws.com/default/bookManagement' // e.g. https://rc7nyt4tql.execute-api.us-west-2.amazonaws.com/prod,
     }
 };
-s
